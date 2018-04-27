@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'light_novel.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
-# DOWNLOAD_DELAY = 0.25
+DOWNLOAD_DELAY = 1
 ITEM_PIPELINES = {
     'light_novel.pipelines.LightNovelPipeline': 300,
 }

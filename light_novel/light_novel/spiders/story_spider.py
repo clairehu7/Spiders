@@ -10,7 +10,9 @@ from light_novel.items import LightNovelItem
 # 设置要爬的开始章节和结束章节
 global start_index,end_index
 start_index = 1
-end_index = 10
+end_index = 100
+
+# 26
 
 global end_url,current_index
 end_url = ''
